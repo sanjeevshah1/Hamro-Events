@@ -116,7 +116,7 @@ const FeaturedServices = () => {
     <div className="w-full bg-mainColor mt-12 pb-12">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-4 bg-fifthColor bg-clip-text text-transparent">
             Featured Services
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
