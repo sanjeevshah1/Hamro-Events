@@ -60,6 +60,8 @@ const NavButton = memo(({ direction, onClick, children }: {
   </button>
 ));
 
+NavButton.displayName = "NavButton";
+
 const FeaturedServices = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
