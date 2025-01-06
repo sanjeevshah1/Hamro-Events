@@ -24,8 +24,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-gray-400 w-screen">
-      <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-start justify-items-center" >
+      <div className="max-w-7xl mx-auto px-8 py-12">
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-start lg:justify-items-center" >
           <FooterSection title="About Us">
             <p className="leading-relaxed">
               Hamro Events is your trusted platform for connecting event planners with top-notch service providers. We aim to simplify event management by offering a seamless booking experience, fostering successful events, and bringing communities together through memorable occasions.
