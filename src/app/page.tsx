@@ -1,6 +1,5 @@
 import React from 'react'
 import { List, Search} from 'lucide-react';
-import Navbar from './Components/Navbar';
 import FeaturedServices from './Components/FeaturedServices';
 const Home = () => {
   return (
