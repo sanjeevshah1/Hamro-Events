@@ -1,6 +1,7 @@
 'use client';
 import { List, X } from 'lucide-react';
 import { useState } from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -25,25 +26,25 @@ const Header = () => {
   const NavLinks = ({modal}: {modal: boolean}) => (
     <>
       <li>
-        <button
+        <Link href="/"
           className={`${modal ? "text-white" : "text-gray-900"} hover:text-white transform hover:scale-110 transition-transform duration-300`}
         >
           Home
-        </button>
+        </Link>
       </li>
       <li>
-        <button
+        <Link href="/User"
         className={`${modal ? "text-white" : "text-gray-900"} hover:text-white transform hover:scale-110 transition-transform duration-300`}
         >
           Dashboard
-        </button>
+        </Link>
       </li>
       <li>
-        <button
+        <Link href="/"
          className={`${modal ? "text-white" : "text-gray-900"} hover:text-white transform hover:scale-110 transition-transform duration-300`}
         >
           Services
-        </button>
+        </Link>
       </li>
     </>
   );

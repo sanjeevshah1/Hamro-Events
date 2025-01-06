@@ -1,8 +1,9 @@
+import Info from "../Components/Info"
 
 const page = () => {
   return (
-    <div>This is the new admin page
-        <p>Hello Sanjeev</p>
+    <div>
+        <Info name="admin" />
     </div>
   )
 }
