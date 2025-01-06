@@ -19,7 +19,7 @@ const ServiceCard = memo(({ service } : {
           <img 
             src={service.image} 
             alt={service.title}
-            className="w-full h-72 object-cover"
+            className="w-full h-72 md:h-[400px] object-cover"
             loading="lazy" // Add lazy loading
           />
           <div className="absolute top-4 left-4">
