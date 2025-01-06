@@ -1,7 +1,7 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 
-const FooterSection = ({ title, children } : {title : string, children : React.ReactNode}) => (
+const FooterSection = ({ title, children }: {title: string, children: React.ReactNode}) => (
   <div className="space-y-4">
     <h2 className="text-white text-lg font-semibold">{title}</h2>
     {children}
@@ -23,15 +23,14 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gray-900 text-gray-400">
-      <div className="max-w-7xl mx-auto flex justify-around px-8 py-12">
-        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 md:place-items-center">
-        <FooterSection title="About Us">
+    <footer className="bg-gray-900 text-gray-400 w-screen">
+      <div className="max-w-7xl mx-auto px-4 py-12">
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-start justify-items-center" >
+          <FooterSection title="About Us">
             <p className="leading-relaxed">
-                Hamro Events is your trusted platform for connecting event planners with top-notch service providers. We aim to simplify event management by offering a seamless booking experience, fostering successful events, and bringing communities together through memorable occasions.
+              Hamro Events is your trusted platform for connecting event planners with top-notch service providers. We aim to simplify event management by offering a seamless booking experience, fostering successful events, and bringing communities together through memorable occasions.
             </p>
-        </FooterSection>
-
+          </FooterSection>
 
           <FooterSection title="Quick Links">
             <nav className="space-y-2">
@@ -80,11 +79,11 @@ const Footer = () => {
           </FooterSection>
         </div>
       </div>
-      
+
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <p className="text-center text-sm">
-            © {new Date().getFullYear()} Music School. All rights reserved.
+            © {new Date().getFullYear()} Hamro Events. All rights reserved.
           </p>
         </div>
       </div>
