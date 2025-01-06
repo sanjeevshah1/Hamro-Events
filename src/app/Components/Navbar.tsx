@@ -22,25 +22,25 @@ const Header = () => {
     }, 500);
   };
 
-  const NavLinks = () => (
+  const NavLinks = ({modal}: {modal: boolean}) => (
     <>
       <li>
         <button
-          className="text-gray-900 hover:text-white transform hover:scale-110 transition-transform duration-300"
+          className={`${modal ? "text-white" : "text-gray-900"} hover:text-white transform hover:scale-110 transition-transform duration-300`}
         >
           Home
         </button>
       </li>
       <li>
         <button
-          className="text-gray-900 hover:text-white transform hover:scale-110 transition-transform duration-300"
+        className={`${modal ? "text-white" : "text-gray-900"} hover:text-white transform hover:scale-110 transition-transform duration-300`}
         >
           Dashboard
         </button>
       </li>
       <li>
         <button
-          className="text-gray-900 hover:text-white transform hover:scale-110 transition-transform duration-300"
+         className={`${modal ? "text-white" : "text-gray-900"} hover:text-white transform hover:scale-110 transition-transform duration-300`}
         >
           Services
         </button>
@@ -63,7 +63,7 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <ul className="hidden lg:flex flex-col md:flex-row items-center gap-8 my-8 sm:text-base md:my-0 md:text-lg lg:text-xl">
-          <NavLinks />
+          <NavLinks modal={false}/>
         </ul>
       </nav>
 
@@ -71,7 +71,7 @@ const Header = () => {
       {isModalOpen && (
         <div 
           className={`
-            fixed inset-0 z-50 bg-black/80  
+            fixed inset-0 z-50 bg-black/40  
             transition-all duration-500 ease-in-out
             ${isModalVisible ? 'opacity-100' : 'opacity-0'}
           `}
@@ -79,7 +79,7 @@ const Header = () => {
         >
           <div 
             className={` border-l-2 border-white/10
-              flex flex-col items-start justify-center h-full bg-black/20
+              flex flex-col items-start justify-center h-full bg-black/60
               w-[75%] ml-auto transform transition-transform duration-500 ease-in-out
               ${isModalVisible ? 'translate-x-0' : 'translate-x-full'}
               
@@ -91,7 +91,7 @@ const Header = () => {
               onClick={closeModal}
             />
             <ul className="flex flex-col ml-12 gap-14 text-2xl ">
-              <NavLinks />
+              <NavLinks modal/>
             </ul>
           </div>
         </div>
