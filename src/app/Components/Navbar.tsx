@@ -26,21 +26,21 @@ const Header = () => {
   const NavLinks = ({modal}: {modal: boolean}) => (
     <>
       <li>
-        <Link href="/"
+        <Link href="/" onClick={closeModal}
           className={`${modal ? "text-white" : "text-gray-900"} hover:text-white transform hover:scale-110 transition-transform duration-300`}
         >
           Home
         </Link>
       </li>
       <li>
-        <Link href="/User"
+        <Link href="/User" onClick={closeModal}
         className={`${modal ? "text-white" : "text-gray-900"} hover:text-white transform hover:scale-110 transition-transform duration-300`}
         >
           Dashboard
         </Link>
       </li>
       <li>
-        <Link href="/"
+        <Link href="/" onClick={closeModal}
          className={`${modal ? "text-white" : "text-gray-900"} hover:text-white transform hover:scale-110 transition-transform duration-300`}
         >
           Services
