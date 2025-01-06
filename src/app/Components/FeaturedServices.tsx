@@ -35,7 +35,7 @@ const ServiceCard = memo(({ service } : {
           <p className="text-gray-600 leading-relaxed">
             {service.description}
           </p>
-          <button className="mt-6 inline-flex items-center text-blue-600 font-medium hover:text-blue-700">
+          <button className="mt-6 inline-flex  items-center text-blue-600 font-medium hover:text-blue-700">
             Learn more
             <ChevronRight className="w-4 h-4 ml-1" />
           </button>
@@ -44,6 +44,7 @@ const ServiceCard = memo(({ service } : {
     </div>
   </div>
 ));
+ServiceCard.displayName = "ServiceCard";
 
 // Navigation button component
 const NavButton = memo(({ direction, onClick, children }: {
