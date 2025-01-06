@@ -110,7 +110,7 @@ const FeaturedServices = () => {
   }, [isHovered, nextSlide]);
 
   return (
-    <div className="w-full bg-mainColor mt-12">
+    <div className="w-full bg-mainColor mt-12 pb-12">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -147,7 +147,7 @@ const FeaturedServices = () => {
           <div className="mt-2 max-w-2xl mx-auto px-8">
             <div className="h-1 bg-gray-200 rounded-full">
               <div 
-                className="h-full bg-blue-600 rounded-full transition-all duration-500 "
+                className="h-full bg-blue-600 rounded-full transition-width duration-700 "
                 style={{ width: `${((currentIndex + 1) / services.length) * 100}%` }}
               />
             </div>
