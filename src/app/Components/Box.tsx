@@ -1,6 +1,3 @@
-
-
-
 const Box = ({event, date, venue}:{event:string, date:Date, venue:string}) => {
   return (
     <div className="bg-[#D9D9D9] font-josefinSlab flex flex-row gap-2 p-2 rounded-md">
