@@ -1,5 +1,5 @@
 import React from 'react'
-import { List, Search} from 'lucide-react';
+import { Search} from 'lucide-react';
 import FeaturedServices from './Components/FeaturedServices';
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
           placeholder='Search...'
         />
         <button 
-          className='absolute right-3 top-1/2 -translate-y-1/2'
+          className='absolute right-3 top-1/2 -translate-y-1/2 justify-'
         >
           <Search size={20}/>
         </button>
