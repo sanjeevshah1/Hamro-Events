@@ -1,11 +1,9 @@
 import React from 'react'
 import { List, Search} from 'lucide-react';
-import Navbar from './Components/Navbar';
 import FeaturedServices from './Components/FeaturedServices';
 const Home = () => {
   return (
   <div className='bg-mainColor min-h-screen font-josefinSlab'>
-    <Navbar/>
     <div className='w-screen p-4 mt-10 mb-2'>
       <h2 className='text-[55px] text-center'>
         Welcome to your event hub
