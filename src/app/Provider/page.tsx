@@ -1,6 +1,7 @@
 import Box from "../../Components/Box"
 import Info from "../../Components/Info"
 
+
 const provider = () => {
   return (
     <div className="min-h-screen font-josefinSlab flex flex-col">
