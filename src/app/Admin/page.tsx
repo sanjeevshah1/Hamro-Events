@@ -1,4 +1,6 @@
-import Box from "../../Components/Box"
+// import Info from "./../components/Info"
+import Box from "./../../Components/Box"
+// import PieChart from "./../components/Pie"
 
 const page = () => {
   return (
