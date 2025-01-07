@@ -1,4 +1,4 @@
-import { Edit, Search} from 'lucide-react';
+import { Edit} from 'lucide-react';
 
 type BoxProps = |{type: "event" | "user"; event:string, date:Date; venue:string}
           |{type: "provider"; provider:string; email:string; status:string};
