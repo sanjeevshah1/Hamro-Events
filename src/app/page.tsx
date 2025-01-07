@@ -1,6 +1,6 @@
 import React from 'react'
 import { Search} from 'lucide-react';
-import FeaturedServices from './Components/FeaturedServices';
+import FeaturedServices from '../Components/FeaturedServices';
 const Home = () => {
   return (
   <div className='bg-mainColor min-h-screen font-josefinSlab'>

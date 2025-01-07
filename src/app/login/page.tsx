@@ -1,4 +1,4 @@
-const page = () => {
+const login = () => {
   return (
     <div>
       Please Sign in or log in
@@ -6,4 +6,4 @@ const page = () => {
   )
 }
 
-export default page
+export default login
