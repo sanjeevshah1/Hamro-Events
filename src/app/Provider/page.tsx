@@ -1,5 +1,5 @@
-import Box from "../Components/Box"
-import Info from "../Components/Info"
+import Box from "../components/Box"
+import Info from "../components/Info"
 
 const provider = () => {
   return (

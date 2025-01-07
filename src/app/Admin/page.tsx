@@ -1,6 +1,6 @@
-import Info from "../Components/Info"
-import Box from "../Components/Box"
-import PieChart from "../Components/Pie"
+import Info from "../components/Info"
+import Box from "../components/Box"
+import PieChart from "../components/Pie"
 
 const page = () => {
   return (
