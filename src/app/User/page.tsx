@@ -10,16 +10,16 @@ const user = () => {
 
         <div className="flex flex-col gap-2  mb-5">
           <p className="text-[1.5rem] text-center">Requested</p>
-          <Box event="Birthday" date={new Date()} venue="Somewhere"/>
-          <Box event="Entertainment" date={new Date()} venue="Somewhere"/>
-          <Box event="Wedding" date={new Date()} venue="Somewhere"/>
+          <Box type ="user" event="Birthday" date={new Date()} venue="Somewhere"/>
+          <Box type ="user" event="Entertainment" date={new Date()} venue="Somewhere"/>
+          <Box type ="user" event="Wedding" date={new Date()} venue="Somewhere"/>
         </div>
 
         <div className="flex flex-col gap-2 mb-5">
           <p className="text-[1.5rem] text-center">Booked</p>
-          <Box event="Birthday" date={new Date()} venue="Somewhere"/>
-          <Box event="Entertainment" date={new Date()} venue="Somewhere"/>
-          <Box event="Wedding" date={new Date()} venue="Somewhere"/>
+          <Box type ="user" event="Birthday" date={new Date()} venue="Somewhere"/>
+          <Box type ="user" event="Entertainment" date={new Date()} venue="Somewhere"/>
+          <Box type ="user" event="Wedding" date={new Date()} venue="Somewhere"/>
         </div>
       
       </div>
