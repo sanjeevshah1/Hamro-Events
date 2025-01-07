@@ -3,7 +3,7 @@ const Info = ({name, email, phone, location}:{name:string, email?:string, phone?
     return (
     <div>
         <div className="m-4 p-4 flex flex-col items-center">
-            <img src="avatar.png" alt="Image of User." />
+            <img src="sound.jpg" alt="Image of User." className="w-32 h-32 rounded-full hover:-translate-y-1 hover:-translate-x-1 hover:shadow-lg transition-transform duration-300"/>
             <p className="font-bold text-[1.5rem] text-center text-white">{name}</p>
           </div>
           {display && <div className="flex flex-col items-start p-4 m-4">
