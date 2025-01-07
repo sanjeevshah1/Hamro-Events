@@ -29,8 +29,8 @@ const PieChart = ({ dataValues }: {dataValues:number[]}) => {
   }, [dataValues]);
 
   return (
-    <div className="w-full h-56 flex flex-col items-center mb-4">
-      <Pie data={chartData} options={{ responsive: true, plugins: { legend: { position: 'top' } } }} />
+    <div className="w-full h-56 flex flex-col items-center mb-4 lg:h-80 lg:my-10">
+      <Pie data={chartData} options={{ responsive: true, plugins: { legend: { position: 'top' } } }}    />
     </div>
   );
 };

@@ -15,9 +15,9 @@ const page = () => {
           <Box type="provider" provider="Wedding" email="wed@gmail.com" status="Active"/>
         </div>
         
-        <p className="text-[2rem] text-white ">Users</p>
+        <p className="text-[2rem] text-white lg:mt-10">Users</p>
 
-        <PieChart dataValues={[10, 20]}/>
+        <PieChart dataValues={[12, 20]}/>
 
       </div>
     </div>
