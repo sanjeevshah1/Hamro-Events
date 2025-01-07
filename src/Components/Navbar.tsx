@@ -33,7 +33,7 @@ const Header = () => {
         </Link>
       </li>
       <li>
-        <Link href="/customer" onClick={closeModal}
+        <Link href="/user" onClick={closeModal}
         className={`${modal ? "text-white" : "text-gray-900"} hover:text-white transform hover:scale-110 transition-transform duration-300`}
         >
           Dashboard
